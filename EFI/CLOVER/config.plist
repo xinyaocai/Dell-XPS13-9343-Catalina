@@ -203,6 +203,20 @@
 					FCBCUlRYAg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -352,7 +366,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-cdfon</string>
+		<string>-cdfon alcid=13</string>
 		<key>DefaultVolume</key>
 		<string>MAC OS</string>
 		<key>Legacy</key>
